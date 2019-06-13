@@ -97,8 +97,7 @@ Hopefully, someone figured out this mistake and understood what needed to be don
 
 A simple bruteforce for each character and compare it against the `v` values would give the solution:
 
-```
-
+```python
 def crc32(pwd) -> bool:
     c = 0
     c = ~c & 0xffffffff
@@ -121,8 +120,10 @@ print(solution)
 ```
 
 That script prints the solution :
+
 ```$ python3 solve.py
-ICONation<3```
+ICONation<3
+```
 
 ![https://i.imgur.com/eeRisZ2.png](https://i.imgur.com/eeRisZ2.png)
 
