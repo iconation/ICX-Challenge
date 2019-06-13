@@ -121,7 +121,8 @@ print(solution)
 
 That script prints the solution :
 
-```$ python3 solve.py
+```bash
+$ python3 solve.py
 ICONation<3
 ```
 
